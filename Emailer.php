@@ -41,7 +41,7 @@ class Emailer {
 			 $this->emailMsg = $inEmailMsg;
 	 }
 
-	 public function getSentTo()
+	 public function getSendTo()
 	 {
 	 	     return $this->sendTo;
 	 }
@@ -56,9 +56,9 @@ class Emailer {
 	 	return $this->emailSubject;
 	 }
 
-	 public function getEmailMsg()
+	 public function getemailMsg()
 	  {
-	  	     return $this->EmailMsg;
+	  	     return $this->emailMsg;
 	  }
 
 }
