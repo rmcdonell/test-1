@@ -19,12 +19,12 @@ class Emailer {
 	 public function setSendTo($inSendTo)
 	 {
 
-		$this->sentFrom = $inSentFrom;
+		$this->sendTo = $inSendTo;
 		//$this means class(current object)
 		//->(arrow) takes place of .
 	 }
 
-	 public function setSentFrom($inSendTo)
+	 public function setSentFrom($inSentFrom)
 	 {
 	 		 $this->sentFrom = $inSentFrom;
 	 }
@@ -43,7 +43,7 @@ class Emailer {
 
 	 public function getSentTo()
 	 {
-	 	     return $this->sentTo;
+	 	     return $this->sendTo;
 	 }
 
 	 public function getSentFrom()
